@@ -421,24 +421,23 @@ class Settings_class:
 
         #self.prefe_window.mainloop()
 
-
     def get_config_default_font_color(self, *args):
         if self.style1:
-            return self.config_font_style_1
+            return config_font_style_1
         elif self.style2:
-            return self.config_font_style_2
+            return config_font_style_2
         elif self.style3:
-            return self.config_font_style_3
+            return config_font_style_3
         else:
             return self.font_color
 
     def get_config_default_bg_color(self):
         if self.style1:
-            return self.config_bg_style_1
+            return config_bg_style_1
         elif self.style2:
-            return self.config_bg_style_2
+            return config_bg_style_2
         elif self.style3:
-            return self.config_bg_style_3
+            return config_bg_style_3
         else:
             return self.text_background
 
@@ -583,7 +582,6 @@ class Settings_class:
         notebad_sample_preview.config(width=self.notebad_calc_width, height= self.notebad_calc_height)
         notebad_sample_preview.place(x=self.notebad_calc_left_pos, y=self.notebad_calc_top_pos)
 
-
     def cancel_clicked(self, *args):
 
         self.prefe_window.destroy()
@@ -624,6 +622,8 @@ class Settings_class:
         conteur['window_size_settings']['window_height'] = str(window_height_spinbox.get())
         conteur['window_size_settings']['window_width']  = str(window_width_spinbox.get())
 
+        print(window_height_spinbox.get())
+
         conteur['window_position_settings']['window_top']  = str(window_top_spinbox.get())
         conteur['window_position_settings']['window_left'] = str(window_left_spinbox.get())
 
@@ -633,12 +633,11 @@ class Settings_class:
         #save changes in config file
         conteur.write(open('configuration.ini','w'))
 
-
-
+        return 1
 
     def save_clicked(self, *args):
-        Settings_class.apply_clicked(self)
-        self.prefe_window.destroy()
+        if Settings_class.apply_clicked(self):
+            self.prefe_window.destroy()
 
 
 
