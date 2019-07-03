@@ -72,8 +72,10 @@ class BlockNote_window:
 
     # New NotePad winodw
     def nouveau(self ,*args):
-        import os
-        os.popen("python main.py")
+        import sys
+        # Get the path to current interpreter and run a new window
+        os.popen(sys.executable + ' main.py')
+
 
     # Open an Existing file
     def fopen(self, *args):
