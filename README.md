@@ -2,8 +2,6 @@
 
 # TextEditor in Python OO with Tkinter 
 
-**Crmf Project**
-
 This project has been developed on windows 10 using Python 3
 
 ## Release Information
