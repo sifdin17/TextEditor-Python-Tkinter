@@ -5,7 +5,6 @@
 This project has been developed on windows 10 using Python 3
 
 ## Release Information
-**Author:** Saifeddine Chagdali
 
 **Release Date:** 06/30/2019
 
