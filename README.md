@@ -86,4 +86,7 @@ this is a part of the code:
   position_preview_inside_frame.place(x=0, y=0)
 ```
 
-## Good Luck
+
+
+
+Good Luck
