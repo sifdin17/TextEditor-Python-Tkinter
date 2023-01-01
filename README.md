@@ -2,11 +2,8 @@
 
 # TextEditor in Python OO with Tkinter 
 
-This project has been developed on windows 10 using Python 3
-
-## Release Information
-
-**Release Date:** 06/30/2019
+This project to be shared with my students.
+made using Python 3
 
 ## Library required
 
@@ -57,7 +54,7 @@ Main window class includes the GUI and all methods attached to the Menubar and t
 #### settings_window.py
 TopLevel settings window includes the GUI and methods for ListBox, Spinbox, Entry and button actions. Also includes a Frame Preview of the window size and X,Y positions...
 
-![](https://raw.githubusercontent.com/sifdin17/TextEditor/master/demo_screenshots/settings_tabs.jpg)
+![](https://github.com/sifdin17/TextEditor/master/demo_screenshots/settings_tabs.jpg)
 
 the window preview is inspired from the window setting from windows ***CMD***. the ```configuration.ini``` will save the X,Y position and load the window at the speciefied position each time...
 ![](https://raw.githubusercontent.com/sifdin17/TextEditor/master/demo_screenshots/cmd_preview.jpg)
