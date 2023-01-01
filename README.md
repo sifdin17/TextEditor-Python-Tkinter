@@ -56,6 +56,7 @@ TopLevel settings window includes the GUI and methods for ListBox, Spinbox, Entr
 ![](https://res.cloudinary.com/cloudjs/image/upload/v1672610731/github/settings_tabs.jpg)
 
 the window preview is inspired from the window setting from windows ***CMD***. the ```configuration.ini``` will save the X,Y position and load the window at the speciefied position each time...
+
 ![](https://res.cloudinary.com/cloudjs/image/upload/v1672610666/github/cmd_preview.jpg)
 
 we have used the ```winfo_screenwidth()``` and ```winfo_screenheight()``` to auto get the width and height of the users own screen, which allows the user to preview the position of the window correctly.
