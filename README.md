@@ -2,8 +2,7 @@
 
 # TextEditor in Python OO with Tkinter 
 
-This project to be shared with my students.
-made using Python 3
+This project to be shared with my dev students.
 
 ## Library required
 
@@ -49,15 +48,15 @@ Main window class includes the GUI and all methods attached to the Menubar and t
 
 > **Note:** all styling changes within this window will be stored in the ```Configuration.in``` file..
 
-![](https://raw.githubusercontent.com/sifdin17/TextEditor/master/demo_screenshots/textnote.jpg )
+![](https://res.cloudinary.com/cloudjs/image/upload/v1672610764/github/textnote.jpg)
 
 #### settings_window.py
 TopLevel settings window includes the GUI and methods for ListBox, Spinbox, Entry and button actions. Also includes a Frame Preview of the window size and X,Y positions...
 
-![](https://github.com/sifdin17/TextEditor/master/demo_screenshots/settings_tabs.jpg)
+![](https://res.cloudinary.com/cloudjs/image/upload/v1672610731/github/settings_tabs.jpg)
 
 the window preview is inspired from the window setting from windows ***CMD***. the ```configuration.ini``` will save the X,Y position and load the window at the speciefied position each time...
-![](https://raw.githubusercontent.com/sifdin17/TextEditor/master/demo_screenshots/cmd_preview.jpg)
+![](https://res.cloudinary.com/cloudjs/image/upload/v1672610666/github/cmd_preview.jpg)
 
 we have used the ```winfo_screenwidth()``` and ```winfo_screenheight()``` to auto get the width and height of the users own screen, which allows the user to preview the position of the window correctly.
 
