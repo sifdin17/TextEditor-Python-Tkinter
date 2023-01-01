@@ -85,7 +85,5 @@ this is a part of the code:
   position_preview_inside_frame = Frame( position_preview_frame, width=self.preview_frame_w, height=self.preview_frame_h, bg="#000000")
   position_preview_inside_frame.place(x=0, y=0)
 ```
-> **Note:** code is not perfect, you probably going to find an error somewhere =D
 
-## Contributing
-Pull requests are welcome for all kind of changes!
+## Good Luck
